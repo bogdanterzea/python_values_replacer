@@ -1,0 +1,9 @@
+' test file for replacing values
+namespace AppTheme
+    const colors = {
+        tvWhite: "0x348234ff"
+        accent: "0x243237ff"
+        mediumGray: "0x6b6d71ff"
+        lightGray: "0xb2b2b233"
+    }
+end namespace
