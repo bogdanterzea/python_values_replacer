@@ -16,7 +16,7 @@ if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.realpath(__file__))
     source_dir = os.path.join(current_dir, 'files_to_coppy')
     target_dir = os.path.join(current_dir, 'files_details')
-    image_names = ['img11.png', 'img2.png']
+    image_names = ['img1.png', 'img2.png']
     
     auto_copy_images(source_dir, target_dir, image_names)
 # Make sure you have both images in files_to_coppy directory

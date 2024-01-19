@@ -6,11 +6,20 @@ This is a demonstration repository created to test the capability of python scri
 Python setup on the machine
 
 ## How to run 
-### Example
+### Example for a color change
 ```
 python3 modify_color.py tvWhite 0x555555ff accent 0x333333ff
 ```
 OR
 ```
 python modify_color.py tvWhite 0x555555ff accent 0x333333ff
+```
+### Example to replace/populate images
+Add the wanted images in files_to_coppy and check that the names are right in the coppy_image.py
+```
+python3 coppy_image.py
+```
+OR
+```
+python coppy_image.py
 ```
